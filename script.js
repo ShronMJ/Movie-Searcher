@@ -24,7 +24,7 @@ function returnMovies(url){
 
             const image = document.createElement('img');
             image.setAttribute('class','thumbnail');
-            div_card.setAttribute('id','image');
+            image.setAttribute('id','image');
 
             const title = document.createElement('h3');
             title.setAttribute('id','title');
